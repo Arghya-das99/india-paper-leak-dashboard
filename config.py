@@ -1,0 +1,33 @@
+APP_TITLE = "India Paper Leak Dashboard"
+
+PAGE_ICON = "📄"
+
+LAYOUT = "wide"
+
+INITIAL_SIDEBAR_STATE = "expanded"
+
+START_YEAR = 2004
+END_YEAR = 2026
+
+APP_DESCRIPTION = """
+Interactive dashboard to analyze paper leaks in India
+from 2004–2026.
+"""
+
+PRIMARY_COLOR = "#3B82F6"
+
+SECONDARY_COLOR = "#1E293B"
+
+BACKGROUND_COLOR = "#0F172A"
+
+CARD_COLOR = "#1E293B"
+
+TEXT_COLOR = "#F8FAFC"
+
+SUCCESS_COLOR = "#22C55E"
+
+WARNING_COLOR = "#F59E0B"
+
+DANGER_COLOR = "#EF4444"
+
+BORDER_COLOR = "#334155"

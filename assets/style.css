@@ -1,0 +1,379 @@
+/* ===================================================
+   GLOBAL
+=================================================== */
+
+.block-container {
+    max-width: 1400px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* ===================================================
+   DASHBOARD HEADER
+=================================================== */
+
+.dashboard-header {
+
+    background: linear-gradient(135deg, #1E293B, #0F172A);
+
+    border: 1px solid #334155;
+
+    border-radius: 20px;
+
+    padding: 28px;
+
+    margin-bottom: 30px;
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+}
+
+.dashboard-title {
+
+    color: #F8FAFC;
+
+    font-size: 2.3rem;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+}
+
+.dashboard-subtitle {
+
+    color: #CBD5E1;
+
+    font-size: 1rem;
+
+    margin-top: 8px;
+
+}
+
+.stats-row {
+
+    margin-top: 22px;
+
+}
+
+.stat-chip {
+
+    display: inline-block;
+
+    background: #334155;
+
+    color: #F8FAFC;
+
+    padding: 10px 18px;
+
+    margin: 8px 10px 0 0;
+
+    border-radius: 999px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: all .25s ease;
+
+}
+
+.stat-chip:hover {
+
+    background: #3B82F6;
+
+}
+
+/* ===================================================
+   KPI GRID
+=================================================== */
+
+.kpi-grid {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 18px;
+
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+/* ===================================================
+   KPI CARD
+=================================================== */
+
+.kpi-card {
+
+    flex: 1 1 260px;
+
+    min-width: 260px;
+
+    max-width: 320px;
+
+    background: #1E293B;
+
+    border: 1px solid #334155;
+
+    border-radius: 18px;
+
+    padding: 22px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    transition: all .25s ease;
+
+}
+
+.kpi-card:hover {
+
+    transform: translateY(-6px) scale(1.02);
+
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .35);
+
+}
+
+.kpi-icon {
+
+    position: absolute;
+
+    top: 18px;
+
+    right: 18px;
+
+    font-size: 30px;
+
+    opacity: .25;
+
+}
+
+.kpi-title {
+
+    color: #CBD5E1;
+
+    font-size: 15px;
+
+    margin-bottom: 14px;
+
+    font-weight: 500;
+
+}
+
+.kpi-value {
+
+    color: #F8FAFC;
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+    line-height: 1.2;
+
+}
+
+/* ===================================================
+   KPI ACCENT COLORS
+=================================================== */
+
+.kpi-card.blue {
+    border-top: 5px solid #3B82F6;
+}
+
+.kpi-card.purple {
+    border-top: 5px solid #8B5CF6;
+}
+
+.kpi-card.orange {
+    border-top: 5px solid #F59E0B;
+}
+
+.kpi-card.green {
+    border-top: 5px solid #22C55E;
+}
+
+.kpi-card.red {
+    border-top: 5px solid #EF4444;
+}
+
+.kpi-card.amber {
+    border-top: 5px solid #FBBF24;
+}
+
+/* ===================================================
+   SIDEBAR
+=================================================== */
+
+[data-testid="stSidebar"] {
+
+    background: #111827;
+
+}
+
+[data-testid="stSidebar"] label {
+
+    color: #F8FAFC;
+
+    font-weight: 500;
+
+}
+
+/* ===================================================
+   BUTTONS
+=================================================== */
+
+.stButton > button {
+
+    border-radius: 12px;
+
+    border: 1px solid #334155;
+
+    transition: .25s;
+
+}
+
+.stButton > button:hover {
+
+    border-color: #3B82F6;
+
+}
+
+/* ===================================================
+   DATAFRAME
+=================================================== */
+
+[data-testid="stDataFrame"] {
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+}
+
+/* ===================================================
+   METRIC
+=================================================== */
+
+[data-testid="metric-container"] {
+
+    background: #1E293B;
+
+    border: 1px solid #334155;
+
+    border-radius: 16px;
+
+    padding: 15px;
+
+}
+
+/* ===================================================
+   PLOTLY CHART CONTAINER
+=================================================== */
+
+.js-plotly-plot {
+
+    border-radius: 18px;
+
+}
+
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+
+@media (max-width: 992px) {
+
+    .kpi-card {
+
+        flex: 1 1 calc(50% - 18px);
+
+        max-width: none;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .dashboard-header {
+
+        padding: 22px;
+
+    }
+
+    .dashboard-title {
+
+        font-size: 1.7rem;
+
+    }
+
+    .dashboard-subtitle {
+
+        font-size: .9rem;
+
+    }
+
+    .stat-chip {
+
+        display: block;
+
+        width: 100%;
+
+        text-align: center;
+
+        margin-right: 0;
+
+    }
+
+    .kpi-grid {
+
+        flex-direction: column;
+
+    }
+
+    .kpi-card {
+
+        min-width: 100%;
+
+        max-width: 100%;
+
+    }
+
+    .kpi-value {
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .dashboard-title {
+
+        font-size: 1.4rem;
+
+    }
+
+    .dashboard-subtitle {
+
+        font-size: .85rem;
+
+    }
+
+    .kpi-value {
+
+        font-size: 26px;
+
+    }
+
+    .kpi-icon {
+
+        font-size: 24px;
+
+    }
+
+}
