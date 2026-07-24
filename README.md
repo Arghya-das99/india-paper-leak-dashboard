@@ -12,7 +12,7 @@
 
 **Transforming publicly reported paper leak data into meaningful insights through interactive visualizations, timelines, and analytics.**
 
-🌐 **Live Demo:** *Coming Soon*
+🌐 **Live Demo:** *https://india-paper-leak-dashboard.streamlit.app/*
 
 </div>
 
@@ -230,9 +230,9 @@ streamlit run app.py
 
 > Add a screenshot here after deployment.
 
-```
-assets/dashboard.png
-```
+<p align="center">
+<img src="assets/dashboard.png" width="95%">
+</p>
 
 ---
 
@@ -240,9 +240,9 @@ assets/dashboard.png
 
 > Comparison of paper leak incidents, aspirants affected, arrests, convictions, and linked deaths across different government periods.
 
-```text
-assets/government_comparison.png
-```
+<p align="center">
+<img src="assets/government_comparison.png" width="95%">
+</p>
 
 ---
 
@@ -250,9 +250,9 @@ assets/government_comparison.png
 
 > Add screenshot
 
-```
-assets/state_analytics.png
-```
+<p align="center">
+<img src="assets/state_analytics.png" width="95%">
+</p>
 
 ---
 
@@ -260,9 +260,9 @@ assets/state_analytics.png
 
 > Add screenshot
 
-```
-assets/timeline.png
-```
+<p align="center">
+<img src="assets/timeline.png" width="95%">
+</p>
 
 ---
 
@@ -270,9 +270,9 @@ assets/timeline.png
 
 > Add screenshot
 
-```
-assets/explorer.png
-```
+<p align="center">
+<img src="assets/explorer.png" width="95%">
+</p>
 
 ---
 
