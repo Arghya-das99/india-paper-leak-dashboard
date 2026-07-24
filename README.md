@@ -228,7 +228,6 @@ streamlit run app.py
 
 ## Dashboard Overview
 
-> Add a screenshot here after deployment.
 
 <p align="center">
 <img src="assets/dashboard.png" width="95%">
@@ -248,7 +247,7 @@ streamlit run app.py
 
 ## State-wise Analytics
 
-> Add screenshot
+>
 
 <p align="center">
 <img src="assets/state_analytics.png" width="95%">
@@ -258,7 +257,6 @@ streamlit run app.py
 
 ## Major Incident Timeline
 
-> Add screenshot
 
 <p align="center">
 <img src="assets/timeline.png" width="95%">
@@ -267,8 +265,6 @@ streamlit run app.py
 ---
 
 ## Incident Explorer
-
-> Add screenshot
 
 <p align="center">
 <img src="assets/explorer.png" width="95%">
